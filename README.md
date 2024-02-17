@@ -26,23 +26,23 @@ Calculators (EMI, Tax, SIP):
 
 ## Screenshots
 Home Page
-![Home](<Screenshots/Screenshot 2024-02-18 024646.png>)
+![Home](<HM0044_Enigma/Screenshots/Screenshot 2024-02-18 024646.png>)
 
 AI Advisor
-![AI Advisor](<Screenshots/Screenshot 2024-02-18 024709.png>)
+![AI Advisor](<HM0044_Enigma/Screenshots/Screenshot 2024-02-18 024709.png>)
 
 AI Advisor Outputs
-![AI advisor](<Screenshots/Screenshot 2024-02-18 025028.png>) 
-![AI advisor](<Screenshots/Screenshot 2024-02-18 025014.png>)
+![AI advisor](<HM0044_Enigma/Screenshots/Screenshot 2024-02-18 025028.png>) 
+![AI advisor](<HM0044_Enigma/Screenshots/Screenshot 2024-02-18 025014.png>)
 
 SIP calculator
-![SIP](Screenshots/image.png)
+![SIP](HM0044_Enigma/Screenshots/image.png)
 
 EMI calculator
-![BMI](Screenshots/image-1.png)
+![BMI](HM0044_Enigma/Screenshots/image-1.png)
 
 Income Tax calculator
-![Tax](Screenshots/image-2.png)
+![Tax](HM0044_Enigma/Screenshots/image-2.png)
 
 ## Deployed Url
 [Link to Deployed Solution](gfgpccoe.in)
