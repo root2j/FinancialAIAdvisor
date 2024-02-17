@@ -1,0 +1,51 @@
+# HM0044 Enigma 
+
+## Develop a solution to improve financial awareness among people, using visualizations, and providing methods to increase savings.
+
+## Description
+We're excited to introduce our new financial empowerment platform! Our chatbot offers personalized financial assessments to help you understand your current situation and discover areas for improvement. Additionally, we've included calculators for EMI, tax, and SIP investments, making financial planning more accessible. Take charge of your finances and pave the way for a secure future with our user-friendly platform!
+
+## Features
+- AI Advisor
+- SIP calculator
+- EMI calculator
+- Tax calculator
+- User-friendly UI/UX
+
+## Tech Stack
+Front-end:
+HTML5
+CSS with Bootstrap
+JavaScript
+
+Chatbot Integration:
+Google Gemini API
+
+JavaScript
+Calculators (EMI, Tax, SIP):
+
+## Screenshots
+Home Page
+![Home](<Screenshots/Screenshot 2024-02-18 024646.png>)
+
+AI Advisor
+![AI Advisor](<Screenshots/Screenshot 2024-02-18 024709.png>)
+
+AI Advisor Outputs
+![AI advisor](<Screenshots/Screenshot 2024-02-18 025028.png>) 
+![AI advisor](<Screenshots/Screenshot 2024-02-18 025014.png>)
+
+SIP calculator
+![SIP](Screenshots/image.png)
+
+EMI calculator
+![BMI](Screenshots/image-1.png)
+
+Income Tax calculator
+![Tax](Screenshots/image-2.png)
+
+## Deployed Url
+[Link to Deployed Solution](gfgpccoe.in)
+
+## Video Url
+[Link to Demo Video](video_url)

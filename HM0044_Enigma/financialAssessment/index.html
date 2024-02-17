@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.118.2" />
+    <title>Financial Assessment</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/cover/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+
+      .form-group {
+        padding: 1rem;
+      }
+      label {
+        font-size: 25px;
+        padding-bottom: 0.5rem;
+      }
+    </style>
+
+    <link href="cover.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex text-center text-bg-dark flex-column">
+    <header class="mb-5">
+      <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="..\FinWin\index.html"
+              >FinWin</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="..\FinWin\index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="..\financialAssessment\index.html"
+                    >AI Advisor</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Calculators
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="..\FinWin\calculators\sip.html"
+                        >SIP</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="..\FinWin\calculators\emi.html"
+                        >EMI</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="..\FinWin\calculators\tax.html"
+                        >TAX</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main class="px-3">
+        <form id="financialQuestionnaireForm">
+          <h1 style="margin-top: 10rem; margin-bottom: 3rem; font-size: 2.8rem">
+            Financial Questionnaire Form
+          </h1>
+          <div class="form-group">
+            <h2>Income</h2>
+            <label for="income">How much do you earn per month?</label><br />
+            <input type="text" class="form-control" id="income" name="income" />
+          </div>
+          <div class="form-group">
+            <label for="incomeChanges"
+              >Are there any expected changes to your income soon?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="incomeChanges"
+              name="incomeChanges"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Expenses</h2>
+            <label for="expenses">What are your monthly expenses?</label><br />
+            <textarea
+              class="form-control"
+              id="expenses"
+              name="expenses"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="expenseReduction"
+              >Can you identify any expenses you can reduce or eliminate?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="expenseReduction"
+              name="expenseReduction"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Assets</h2>
+            <label for="assets">List your assets.</label><br />
+            <textarea
+              class="form-control"
+              id="assets"
+              name="assets"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="assetValues"
+              >What's the approximate value of each asset?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="assetValues"
+              name="assetValues"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Debts</h2>
+            <label for="debts">List your debts.</label><br />
+            <textarea
+              class="form-control"
+              id="debts"
+              name="debts"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="debtDetails"
+              >What are the interest rates and minimum payments for each
+              debt?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="debtDetails"
+              name="debtDetails"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Financial Goals</h2>
+            <label for="shortTermGoals"
+              >What are your short-term financial goals?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="shortTermGoals"
+              name="shortTermGoals"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="longTermGoals"
+              >What are your long-term financial goals?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="longTermGoals"
+              name="longTermGoals"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Risk Tolerance</h2>
+            <label for="riskTolerance"
+              >How comfortable are you with financial risks for potential higher
+              returns?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="riskTolerance"
+              name="riskTolerance"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="investmentFluctuations"
+              >Are you willing to accept short-term investment fluctuations for
+              long-term gains?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="investmentFluctuations"
+              name="investmentFluctuations"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Emergency Fund</h2>
+            <label for="emergencyFund"
+              >Do you have an emergency fund? If yes, how many months does it
+              cover?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="emergencyFund"
+              name="emergencyFund"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Insurance Coverage</h2>
+            <label for="insuranceTypes"
+              >What types of insurance do you have?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="insuranceTypes"
+              name="insuranceTypes"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="insuranceGaps"
+              >Are there any gaps in your coverage?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="insuranceGaps"
+              name="insuranceGaps"
+              cols="50"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <h2>Financial Knowledge</h2>
+            <label for="financialConfidence"
+              >How confident are you in your financial knowledge?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="financialConfidence"
+              name="financialConfidence"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="financeAreas"
+              >Are there specific areas of finance you want to learn more
+              about?</label
+            ><br />
+            <textarea
+              class="form-control"
+              id="financeAreas"
+              name="financeAreas"
+              cols="50"
+            ></textarea>
+          </div>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style="margin-bottom: 5rem; font-size: 1.5rem"
+            onclick="submitFinancialForm()"
+          >
+            Submit
+          </button>
+        </form>
+        <div id="chatbotOutput" style="margin-bottom: 5rem; font-size: 1.5rem">
+        </div>
+      </main>
+
+      <footer class="mt-auto text-white-50"></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./financialAssessment.js"></script>
+  </body>
+</html>
