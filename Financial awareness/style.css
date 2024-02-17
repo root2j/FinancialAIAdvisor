@@ -1,0 +1,13 @@
+*{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+img{
+  align-items: center;
+  width : 200px;
+  height: auto;
+}
+.containers{
+  text-align: center;
+}
