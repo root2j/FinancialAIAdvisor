@@ -45,7 +45,7 @@ Income Tax calculator
 ![Tax](HM0044_Enigma/Screenshots/image-2.png)
 
 ## Deployed Url
-[Link to Deployed Solution](gfgpccoe.in)
+[Link to Deployed Solution](https://root2j.github.io/HM0044_Enigma/)
 
 ## Video Url
 [Link to Demo Video](https://drive.google.com/drive/folders/1iAuHeA4C1AImfFJHKtswdNZekaN0cBE5)
