@@ -118,7 +118,7 @@ function callChatbotAPI() {
   };
 
   fetch(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyByIBiNyR7JcACVnMcir9yDcU8dB7aHUI0",
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY",
     {
       method: "POST",
       headers: {
