@@ -1,4 +1,4 @@
-# HM0044 Enigma 
+# FinancialAIAdvisor
 
 ## Develop a solution to improve financial awareness among people, using visualizations, and providing methods to increase savings.
 
